@@ -1,0 +1,4 @@
+MOV AL, 66H   
+MOV BL, 77H
+XOR AL,BL
+HLT

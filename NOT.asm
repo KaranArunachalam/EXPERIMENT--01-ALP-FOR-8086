@@ -1,0 +1,3 @@
+MOV AL, 65H
+NOT AL
+HLT
