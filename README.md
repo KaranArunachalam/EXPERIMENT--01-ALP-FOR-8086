@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Karan A
+
+Roll no : 212223230099
+
+Date of experiment : 10/03/2025
 
 
 
@@ -77,27 +79,94 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
-
+## Addition
+```asm
+MOV AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
+```
 
 
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
+ ![ADD](ADD.png)
+## Subtraction
+ ```asm
+MOV AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
+```
+## Output 
+![SUB](SUB.png)
+
+## Multiplication
+```asm
+org 100h
+MOV AL, 075H
+MOV BL, 032H
+MUL BL
+HLT
+RET
+```
  ## Output  
+![MUL](MUL.png)
 
-
-## Division alp 
-
+## Division
+```asm
+org 100h
+MOV AL, 068H
+MOV BL, 018H
+DIV BL
+HLT
+RET
+```
 ## Output  
+![DIV](DIV.png)
 
+## Programs for logical operations
+
+## AND
+```asm
+MOV AL, 033H
+MOV BL, 044H
+AND AL,BL
+HLT
+```
+## Output
+![AND](AND.png)
+
+## OR
+```asm
+MOV AL, 033H
+MOV BL, 044H
+OR AL,BL
+HLT
+```
+## Output
+![Or](OR.png)
+
+## Not
+```asm
+MOV AL, 65H
+NOT AL
+HLT
+```
+## Output
+![Nor](NOT.png)
+
+## XOR
+```asm
+MOV AL, 66H   
+MOV BL, 77H
+XOR AL,BL
+HLT
+```
+## Output
+![xor](XOR.png)
 
 ## Result :
- 
-
+ Thus, the program is created and executed successfully.
 
 
 
